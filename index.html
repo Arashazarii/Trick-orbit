@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trick - My skills</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="demo">
+        <div class="orbit-container" id="orbit" aria-label="Orbiting images">
+          <svg class="orbit-path-svg" id="orbit-svg" aria-hidden="true">
+            <ellipse
+              id="orbit-path"
+              fill="none"
+              stroke="rgba(128,128,128,.4)"
+              stroke-width="1.5"></ellipse>
+          </svg>
+          <div class="orbit-center-content"><h1>AzariDev</h1></div>
+        </div>
+      </section>
+      <p class="hint">
+        Drag horizontally to rotate · Hover an image to slow the orbit · Click
+        an image to bring it forward
+      </p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
