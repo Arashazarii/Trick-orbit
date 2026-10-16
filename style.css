@@ -142,6 +142,8 @@ body {
   text-align: center;
   font-size: 13px;
   line-height: 1.6;
+  text-decoration: none;
+  font-size: large;
 }
 
 @media (max-width: 640px) {
